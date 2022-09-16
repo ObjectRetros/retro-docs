@@ -6,7 +6,7 @@ sidebar_position: 4
 
 In Atom CMS you can restrict users from entering your hotel, by enabling & setting up VPN blockage.
 
-To enable VPN blockage, you must go through a few steps. The first step is to go to [dashboard.ipdata.co](dashboard.ipdata.co) and either login or sign up.
+To enable VPN blockage, you must go through a few steps. The first step is to go to [https://dashboard.ipdata.co](https://dashboard.ipdata.co) and either login or sign up.
 
 Secondly click the ">_ API Settings" or visit the following URL [https://dashboard.ipdata.co/api.html](https://dashboard.ipdata.co/api.html) - You'll then be greeted with your personal API key at the top. Copy the API key and head to your database. Open the ``website_settings`` table and find the ``vpn_block_enabled`` entry and set it to ``1`` next up find the ``ipdata_api_key`` and replace the ``ADD-API-KEY-HERE`` with your personal API key.
 
