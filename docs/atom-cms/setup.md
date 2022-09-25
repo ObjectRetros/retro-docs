@@ -49,7 +49,14 @@ extension=sockets
 ```
 
 #### cURL error
-If you're receiving a cURL 60 error due to eg. setting up findretros, then make sure you download the latest cacert.pem from [https://curl.se/docs/caextract.html](https://curl.se/docs/caextract.html). Once downloaded place it in eg. "C:/" folder and then open your php.ini file, search for ``curl.cainfo`` uncomment (Remove the ";" infront of the line) it and put the absolute path + file name to your certificate (Eg. "C:/cacert-2022-07-19.pem"). Save the file and your problem should now be solved.
+If you're receiving a cURL 60 error due to for example. Setting up findretros, then make sure you download the latest `cacert.pem` from [https://curl.se/docs/caextract.html](https://curl.se/docs/caextract.html). Once downloaded place it within a folder of your choice. For example within your ``C:/`` folder.<br/><br/> 
+Once you have placed your download certificate within a folder, you must open your ``php.ini`` file, and search for ``curl.cainfo``, once you have found the following, you have to uncomment it (Remove the ";" in front of it) and put the absolute path + your certificate name.<br/><br/>
+
+**Here's an example**
+```ini title="php.ini"
+curl.cainfo="C:/cacert-2022-07-19.pem"
+```
+Save the file and your problem should now be solved.
 
 ### Linux Setup
 ```
