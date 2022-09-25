@@ -6,6 +6,22 @@ sidebar_position: 3
 
 Atom CMS comes with a built-in translation system, which makes it super easy to create, edit and implement translations and new languages.
 
+### Change the default language
+If your hotel isn't meant to English by default, you have the opportunity to easily change the default language of Atom CMS.<br/><br/>
+*If the language of course exists within Atom CMS - if not then you must create a new translation, like explained below.*
+
+So to change the default language, find the ``app.php`` file located within the ``config`` folder and scroll down until you find ``'locale' => 'en'`` and change it to your country code.
+
+For example if you want the default language to be Danish, you change it to the following.
+```php title="app.php"
+'locale' => 'en',
+
+should be
+
+'locale' => 'da',
+```
+
+### Adding a new language
 The process of adding a new language is fairly straight forward. All you have to do is to copy the ``en.json`` inside the ``lang`` folder and name is your language country code eg. "da.json" for the Danish language.
 
 Once you have your file prepared, you translate the "values" inside the JSON file. For example:
