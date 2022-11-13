@@ -17,10 +17,28 @@ The following requirements is necessary to set up Atom CMS:
 Once all of the above has been installed & setup, you can continue doing the following:
 Open CMD (Command Prompt) and navigate into the path you want the CMS to be located at, and run the following commands:
 
+### Coming from another cms?
+If you're coming from another CMS like Cosmic CMS and is unsure what tables to remove or worry about colliding tables names, then fear no more!
+
+Even tho we **highly recommend** to do a proper cleanup yourself, Atom CMS has a built-in option to rename colliding table names and drop matching foreign keys.
+
+All you have to do is to change `RENAME_COLLIDING_TABLES=false` to `RENAME_COLLIDING_TABLES=true` within your `.env` file (You'll get to the .env file in the next step). Once the feature is enabled, Atom CMS will **attempt** to solve any conflicts that might happen due to the use of another CMS.
+
+#### Required extensions
+Please verify the following extensions are enabled inside your `php.ini` file. If they have a `;` in front of them it means that they're commented out and not enabled. Simply remove the `;` to enable them.
+```ini title="php.ini"
+extension=curl
+extension=fileinfo
+extension=gd
+extension=mbstring
+extension=openssl
+extension=pdo_mysql
+extension=sockets
+```
+
 ### Windows Setup
 ```
-[Https] git clone https://github.com/ObjectRetros/atomcms.git
-[SSH - Recommended] git clone git@github.com:ObjectRetros/atomcms.git
+git clone https://github.com/ObjectRetros/atomcms.git
 cd atomcms
 copy .env.example .env (Don't forget to edit the database credentials inside the .env)
 composer install 
@@ -32,25 +50,16 @@ php artisan migrate --seed
 ```
 
 #### Required permissions
-Please make sure the atomhk folder is granted "Full control" for both the IUSR & the IIS_IUSRS.
+Please make sure the atomcms folder is granted "Full control" for both the IUSR & the IIS_IUSRS.
 
 Here's a GIF of me doing it on a different folder: [https://gyazo.com/7d5f38525a762c1b26bbd7552ca93478](https://gyazo.com/7d5f38525a762c1b26bbd7552ca93478) the principle is the same, you just do it on the "atomhk" folder.
 
-#### Required extensions
-Please verify the following extensions are enabled inside your php.ini file. If they have a ";" in front of them it means that they're commented out and not enabled. Simply remove the ";" to enable them.
-```ini title="php.ini"
-extension=curl
-extension=fileinfo
-extension=gd
-extension=mbstring
-extension=openssl
-extension=pdo_mysql
-extension=sockets
-```
+#### Using HTTPS
+In case you're using HTTPs through Cloudflares "Always redirect to HTTPs" feature, you should set `FORCE_HTTPS=` within your `.env` file to `true` this it to make sure everything is properly using HTTPs. This is necessary for some features in Atom CMS to work properly when you're letting cloudflare handle the HTTPs redirects without a dedicated SSL certificate.
 
 #### cURL error
 If you're receiving a cURL 60 error due to for example. Setting up findretros, then make sure you download the latest `cacert.pem` from [https://curl.se/docs/caextract.html](https://curl.se/docs/caextract.html). Once downloaded place it within a folder of your choice. For example within your ``C:/`` folder.<br/><br/> 
-Once you have placed your download certificate within a folder, you must open your ``php.ini`` file, and search for ``curl.cainfo``, once you have found the following, you have to uncomment it (Remove the ";" in front of it) and put the absolute path + your certificate name.<br/>
+Once you have placed your download certificate within a folder, you must open your ``php.ini`` file, and search for ``curl.cainfo``, once you have found the following, you have to uncomment it (Remove the `;` in front of it) and put the absolute path + your certificate name.<br/>
 
 **Here's an example**
 ```ini title="php.ini"
@@ -60,8 +69,7 @@ Save the file and your problem should now be solved.
 
 ### Linux Setup
 ```
-[Https] git clone https://github.com/ObjectRetros/atomcms.git
-[SSH - Recommended] git clone git@github.com:ObjectRetros/atomcms.git
+git clone https://github.com/ObjectRetros/atomcms.git
 cd atomcms
 cp .env.example .env (Don't forget to edit the database credentials inside the .env)
 composer install

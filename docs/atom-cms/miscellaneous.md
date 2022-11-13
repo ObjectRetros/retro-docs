@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 # Miscellaneous
@@ -10,25 +10,15 @@ You probably already have an idea about how you want to run your hotels eco. So 
 
 To set the amount of currencies a user get upon registrations, you have to do is open up your database manager, find the ``website_settings`` table and locate the following entries ``start_credits``, ``start_duckets`` & ``start_diamonds`` - Once located, you simply change the values, so it matches  what you want new users to start with💸
 
-### Setting up Findretros
-Findretros is a super useful site, for you to advertise your hotel for free. It's well known and a lot of people go through the site, in order to find new hotels - so if you haven't already gotten a findretros account, we highly recommend you to create one!
+### Setting a default color mode
+You might wish to set the default color mode of Atom to dark mode instead of the default light mode. In Atom CMS all you need to do is head into your ``website_settings`` table and set ``cms_color_mode`` to ``dark`` instead of ``light``
 
-Once you have created your Findretros account, you of course have to link it within Atom CMS, so the CMS will know that it should send your users there to vote, so that your hotel can climb the ranking on there.
-
-Luckily linking your Findretros, is super easy in Atom CMS. All you have to do is to open your .env file scroll down and locate Findretros settings, which would be ``FINDRETROS_NAME=`` and ``FINDRETROS_ENABLED=``.
-
-Once you have located the settings change them to the following:
-```dotenv title=".env"
-FINDRETROS_NAME=your-find-retros-username
-FINDRETROS_ENABLED=true
-```
-
-That's it! Findretros should now be all setup and good to go🔥
+Just keep in mind if you have already visited the CMS you might need to clear your cache, so the CMS can set the color theme properly for you - the same goes for your users, unless it is of course their first visit.
 
 ### Changing the logo
 Of course, you want to change the logo that comes with the CMS, to be your hotel logo instead!
 
-All you have to do, to change the logo is opening up your database manager, find the ``website_settings`` table and locate the ``cms_logo`` - Once located, you simply change the value to be the match the path of your own logo🎨 
+All you have to do, to change the logo is opening up your database manager, find the ``website_settings`` table and locate the ``cms_logo`` - Once located, you simply change the value to be the match the path of your own logo🎨
 
 ### Changing the top banner
 Maybe your hotel got a specific theme, or you just want to make the CMS feel a little more personal by changing the top-banner on the CMS.
