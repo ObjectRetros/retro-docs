@@ -1,0 +1,8 @@
+{
+    "label": "Hotel management",
+    "position": 5,
+    "link": {
+        "type": "generated-index",
+        "description": "Hotel management guides is a WIP. Once finished you'll find various guides regarding managing your hotel, this includes adding new furniture, adding badges, adding room ads and much more."
+    }
+}

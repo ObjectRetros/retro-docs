@@ -1,9 +1,11 @@
 ---
 sidebar_position: 1
+title: Welcome
 ---
+First and foremost, we want to welcome you to retros.guide 👋
 
-# What is this site?
+Retros.guide is a site intended for the community. A collection of educational resources regarding retros 📝
 
-This site is made for the community to enjoy. A place where you can find guides on how to set up Atom CMS & Atom HK and even an in-depth guide taking you from A-Z on how to setup your entire own retro.
+We strive to create an enjoyable place for the community, so that you don't have to research for hours upon hours to figure out the bare basics... We know how valuable your time is! So we have tried to make a collection of resources, so you can deploy your next project without all the hassle 🚀
 
-Our goal for the future is to provide much more content, than we already do, may it be on how to add new furniture to your hotel, adding new clothing, creating clothing, creating furniture etc - But as anything else, things take time and we don't have any ETA on when new guides will be added.
+<small><i>All the resources provided on this site is purely for educational purposes only. We at retros.guide is in no way responsible for how the provided resources is used.</i></small>

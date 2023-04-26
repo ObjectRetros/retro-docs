@@ -1,52 +1,70 @@
 ---
 sidebar_position: 1
+title: 'Introduction'
 ---
 
-# Introduction
-
 <div align="center">
-<a href="https://discord.gg/rX3aShUHdg" target="__blank">
-    <img src="https://i.imgur.com/9ePNdJ4.png" alt="Atom CMS"/>
-    <br />
-    Join the official Atom CMS Discord server
-</a>
+<img src="https://i.imgur.com/9ePNdJ4.png" alt="Atom CMS"/>
 </div>
 
-### What is Atom CMS?
-Atom CMS is a Habbo retro CMS, aiming to provide an easy and solid experience for you and your users. It offers an easy development experience and it even comes with its own theming system, making it a breeze to create your own [themes](https://github.com/qirolab/laravel-themer).
+<div align="center">
+    <a href="https://discord.gg/rX3aShUHdg" target="_blank">
+        Join the official Atom CMS Discord server
+    </a>
+</div>
 
-### Why was Atom CMS made?
-Atom CMS was made to bring the retro community a modern and robust CMS, using **industry approved** technologies which is not only easy to understand but also "easy" to work with. Another reason to why Atom CMS was made was also to bring a variation to the CMS options available to the retro community. With Atoms built in theme system, it becomes a breeze to brew up a new layout in no time, leaving room to either customize your hotel further, or simply contribute to the community by bringing new and exciting themes.
+### 📢 Disclaimer
 
-### What technologies does Atom CMS use?
-Atom CMS is built around solid and battle tested technologies, to provide the best user & developer experience possible. 
+Please note that Atom CMS is provided as an educational resource for learning purposes only. The creators and contributors to Atom CMS are not responsible for any misuse or unintended consequences arising from the use of Atom CMS. By using Atom CMS, you agree to take full responsibility for your actions and any consequences resulting from your use of Atom CMS. It is your responsibility to ensure that you are using Atom CMS in compliance with all applicable laws and regulations.
 
-Here's a list of the core technologies Atom CMS is built around.
-- PHP (Laravel 9.x)
-  [Laravel docs](https://laravel.com/docs/9.x).
-- Vite [Vite docs](https://vitejs.dev/).
+### 💙 A Community-Driven Habbo Retro CMS
+Atom CMS is designed to provide the best possible experience for both you and your users. Built with a focus on community input and easy customization, Atom CMS utilizes modern and robust technologies to ensure a smooth and enjoyable experience.
+
+The creation of Atom CMS was driven by the desire to widen the options available for people when choosing a CMS for their new journey. By valuing community input and collaboration, we aim to offer a modern and user-friendly system that is easy to understand and work with. Additionally, Atom CMS includes a built-in theme system, making it simple to create or customize themes for your hotel, further enhancing the overall experience.
+
+### 🚀 The cool tech behind Atom CMS
+
+Atom CMS is powered by some of the industry-leading technologies that make it not only easy but also a ton of fun to work with. Check out the fantastic trio that brings it all together:
+
+- **PHP (Laravel 10.x)**: At the core of Atom CMS lies Laravel 10.x, a modern and elegant PHP framework that simplifies the development process. Laravel's extensive documentation can be found [here](https://laravel.com/docs/9.x).
+- **Vite**: As a next-generation frontend build tool, Vite empowers Atom CMS with lightning-fast development and production speeds. Dive into the Vite documentation [here](https://vitejs.dev/) to explore its full potential.
+- **TailwindCSS**: To ensure a visually stunning and responsive design, Atom CMS incorporates TailwindCSS, a utility-first CSS framework. Learn more about TailwindCSS and its installation process from the official [docs](https://tailwindcss.com/docs/installation)
+
+With the built-in theme system offered by Atom CMS, you have the flexibility to use any CSS framework you prefer or even opt for a fully customized vanilla approach. This enables you to tailor the platform to your specific needs and preferences, ensuring a truly unique user experience.
+
+### 🧙‍♂️ Learning Laravel
+
+If you are new to Laravel and want to build your own features, we highly recommend the following free resources:
+
+- Laravel Bootcamp: [https://bootcamp.laravel.com/](https://bootcamp.laravel.com/)
+- Laravel 8 from Scratch: [https://laracasts.com/series/laravel-8-from-scratch](https://laracasts.com/series/laravel-8-from-scratch)
+- What's New in Laravel 9: [https://laracasts.com/series/whats-new-in-laravel-9](https://laracasts.com/series/whats-new-in-laravel-9)
+
+Laracasts is an official learning platform for Laravel, so you can trust the quality of the content and learn best practices from some of the best and most experienced teacher within the field.
+
+### 🔥 Credits
+Atom CMS is made possible by the contributions of numerous developers, designers, and community members.
+
+- **Kasja#5700** - Helping with design, ideas & GFX
+- **Nicollas#8412** - Dark mode, Turbolinks, Performance improvements, Article reactions, User sessions, Layout improvements & PT-BR translations
+- **Dominic** - Performance improvements & User sessions
+- **Oliver** - Profile page & Finnish translations
+- **Beny** - Findretros API fixes & CF Fixes
+- **Live** - French translations, bugfixes & tweaks
+- **MisterDeen** - Custom Discord widget, bugfixes & tweaks
+- **DamienJolly** - Bugfixes
+- **Danbo** - Bugfixes
+- **Diddy/Josh** - Code readability improvements
+- **Damue** - German translations
+- **Talion** - Turkish translations
+- **CentralCee & Rille** - Swedish translations
+- **Yannick** - Netherland translations
+- **Gedomi** - Spanish translations
+- **Lorenzune** - Italian translations
+- **Twana** - Norwegian translations
+- **Kani** - Base for RCON System & Findretros API
+- **Sonay** - Material theme
+- **Raizer** - Circinus
 
 
-*Depending on the theme used*
-- TailwindCSS [Tailwind docs](https://tailwindcss.com/docs/installation) & Official Tailwind intro [video course](https://www.youtube.com/watch?v=elgqxmdVms8&list=PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0).
-- Bootstrap [Bootstrap docs](https://getbootstrap.com/docs/5.0/getting-started/introduction/).
-- Vanilla CMS or something else
-
-<br />
-
-**Why Laravel?**<br />
-The goal of Atom is not to show the world how "good" we are as a developers by creating an entire system from scratch that normally lack proper documentation & is hard to customize or maintain, it's to provide a solid system to fellow developers / users, that want to either open their own retro or simply contribute towards Atom CMS and to achieve that we most certainly believe Laravel is the best choice available.
-
-Laravel has been developed for over a decade, it's powering thousands of large scale applications around the web. Its documentation is looked at as one of the best available, it also has a **huge** community around it alongside with tons of **free** learning resource available to learn the framework, which is another big reason behind the choice of using Laravel for Atom CMS.
-
-Due to the "simplicity" of Laravel and it's learning resource available, you don't need to be a PHP expert to work with Atom CMS - All it requires is that you're willing to put a little effort into learning the basics, once you've done that, it'll be smooth sailing from then.
-
-Here's a few **free** learning resources available, which I highly recommend you to have a look at if you want to get into Laravel.
-
-- [https://bootcamp.laravel.com/](https://bootcamp.laravel.com/)
-- https://laracasts.com/series/laravel-8-from-scratch
-- https://laracasts.com/series/whats-new-in-laravel-9
-
-The Laravel bootcamp is the official bootcamp provided by the Laravel team, while Laracasts is an official learning platform for Laravel, so do not worry if you take the time to watch the courses, you'll be taught some of the best practises by some of the best teachers.
-
-That's introduction of Atom CMS! It's now time have fun and get into the setup process of Atom CMS 🍻
+That's introduction of Atom CMS! It's now time to have some fun and get your hands dirty by heading into the setup process 🍻
