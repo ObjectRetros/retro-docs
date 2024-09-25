@@ -26,7 +26,7 @@ The creation of Atom CMS was driven by the desire to widen the options available
 
 Atom CMS is powered by some of the industry-leading technologies that make it not only easy but also a ton of fun to work with. Check out the fantastic trio that brings it all together:
 
-- **PHP (Laravel 10.x)**: At the core of Atom CMS lies Laravel 10.x, a modern and elegant PHP framework that simplifies the development process. Laravel's extensive documentation can be found [here](https://laravel.com/docs/9.x).
+- **PHP (Laravel 10.x)**: At the core of Atom CMS lies Laravel 11.x, a modern and elegant PHP framework that simplifies the development process. Laravel's extensive documentation can be found [here](https://laravel.com/docs/11.x).
 - **Vite**: As a next-generation frontend build tool, Vite empowers Atom CMS with lightning-fast development and production speeds. Dive into the Vite documentation [here](https://vitejs.dev/) to explore its full potential.
 - **TailwindCSS**: To ensure a visually stunning and responsive design, Atom CMS incorporates TailwindCSS, a utility-first CSS framework. Learn more about TailwindCSS and its installation process from the official [docs](https://tailwindcss.com/docs/installation)
 
@@ -38,13 +38,16 @@ If you are new to Laravel and want to build your own features, we highly recomme
 
 - Laravel Bootcamp: [https://bootcamp.laravel.com/](https://bootcamp.laravel.com/) - Recommend "building chirper with blade"
 - Laravel 8 from Scratch: [https://laracasts.com/series/30-days-to-learn-laravel-11](https://laracasts.com/series/30-days-to-learn-laravel-11)
-- What's New in Laravel 9: [https://laracasts.com/series/whats-new-in-laravel-9](https://laracasts.com/series/whats-new-in-laravel-9)
 
 Laracasts is an official learning platform for Laravel, so you can trust the quality of the content and learn best practices from some of the best and most experienced teacher within the field.
 
-### 🔥 Credits
+### 🔥 Credits Atom v2
 Atom CMS is made possible by the contributions of numerous developers, designers, and community members.
 -   **Kani** - Building Atom V2 
+
+
+### 🔥 Credits Atom v1
+Atom CMS is made possible by the contributions of numerous developers, designers, and community members.
 -   **Kasja** - Helping with design, ideas & GFX
 -   **Nicollas** - Dark mode, Turbolinks, Performance improvements, Article reactions, User sessions, Layout improvements & PT-BR translations
 -   **Dominic** - Performance improvements & User sessions
@@ -64,7 +67,7 @@ Atom CMS is made possible by the contributions of numerous developers, designers
 -   **Lorenzune** - Italian translations
 -   **Twana** - Norwegian translations
 -   **Plow** - French translations
--   **Kani** - Rcon System & Findretros API
+-   **Kani (v1)** - Rcon System & Findretros API
 -   **Sonay** - Material theme
 -   **Raizer** - Circinus
 
