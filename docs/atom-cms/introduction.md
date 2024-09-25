@@ -17,6 +17,12 @@ title: 'Introduction'
 
 Please note that Atom CMS is provided as an educational resource for learning purposes only. The creators and contributors to Atom CMS are not responsible for any misuse or unintended consequences arising from the use of Atom CMS. By using Atom CMS, you agree to take full responsibility for your actions and any consequences resulting from your use of Atom CMS. It is your responsibility to ensure that you are using Atom CMS in compliance with all applicable laws and regulations.
 
+### 📢 Community note
+I "ObjectRetros" no longer has any involvement with AtomCMS. The project has been handed over to a super talented developer named "Kani" which has also brought you all Atom v2 - he is the sole maintainer of both the Discord community & the Atom organization on Github.
+
+This site is purely kept up in-case it might be useful for one or another, anything described here is described for Atom v1, so certain things might vary and be obsolete if you use Atom v2.
+
+
 ### 💙 A Community-Driven Habbo Retro CMS
 Atom CMS is designed to provide the best possible experience for both you and your users. Built with a focus on community input and easy customization, Atom CMS utilizes modern and robust technologies to ensure a smooth and enjoyable experience.
 
