@@ -26,7 +26,7 @@ The creation of Atom CMS was driven by the desire to widen the options available
 
 Atom CMS is powered by some of the industry-leading technologies that make it not only easy but also a ton of fun to work with. Check out the fantastic trio that brings it all together:
 
-- **PHP (Laravel 10.x)**: At the core of Atom CMS lies Laravel 11.x, a modern and elegant PHP framework that simplifies the development process. Laravel's extensive documentation can be found [here](https://laravel.com/docs/11.x).
+- **PHP (Laravel 11.x)**: At the core of Atom CMS lies Laravel 11.x, a modern and elegant PHP framework that simplifies the development process. Laravel's extensive documentation can be found [here](https://laravel.com/docs/11.x).
 - **Vite**: As a next-generation frontend build tool, Vite empowers Atom CMS with lightning-fast development and production speeds. Dive into the Vite documentation [here](https://vitejs.dev/) to explore its full potential.
 - **TailwindCSS**: To ensure a visually stunning and responsive design, Atom CMS incorporates TailwindCSS, a utility-first CSS framework. Learn more about TailwindCSS and its installation process from the official [docs](https://tailwindcss.com/docs/installation)
 
@@ -67,7 +67,7 @@ Atom CMS is made possible by the contributions of numerous developers, designers
 -   **Lorenzune** - Italian translations
 -   **Twana** - Norwegian translations
 -   **Plow** - French translations
--   **Kani (v1)** - Rcon System & Findretros API
+-   **Kani** - Rcon System & Findretros API
 -   **Sonay** - Material theme
 -   **Raizer** - Circinus
 
