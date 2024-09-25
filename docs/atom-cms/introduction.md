@@ -37,7 +37,7 @@ With the built-in theme system offered by Atom CMS, you have the flexibility to 
 If you are new to Laravel and want to build your own features, we highly recommend the following free resources:
 
 - Laravel Bootcamp: [https://bootcamp.laravel.com/](https://bootcamp.laravel.com/) - Recommend "building chirper with blade"
-- Laravel 8 from Scratch: [https://laracasts.com/series/30-days-to-learn-laravel-11](https://laracasts.com/series/30-days-to-learn-laravel-11)
+- Laravel 11 from Scratch: [https://laracasts.com/series/30-days-to-learn-laravel-11](https://laracasts.com/series/30-days-to-learn-laravel-11)
 
 Laracasts is an official learning platform for Laravel, so you can trust the quality of the content and learn best practices from some of the best and most experienced teacher within the field.
 
