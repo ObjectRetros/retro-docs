@@ -8,8 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Retro Documentation',
   tagline: 'A place where you can find guides for various retro aspects 🔥',
-  url: 'https://docs.objectretro.net',
-  baseUrl: '/',
+  url: 'https://objectretros.github.io/retro-docs/',
+  baseUrl: '/retro-docs/',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
