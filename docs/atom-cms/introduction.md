@@ -36,35 +36,37 @@ With the built-in theme system offered by Atom CMS, you have the flexibility to 
 
 If you are new to Laravel and want to build your own features, we highly recommend the following free resources:
 
-- Laravel Bootcamp: [https://bootcamp.laravel.com/](https://bootcamp.laravel.com/)
-- Laravel 8 from Scratch: [https://laracasts.com/series/laravel-8-from-scratch](https://laracasts.com/series/laravel-8-from-scratch)
+- Laravel Bootcamp: [https://bootcamp.laravel.com/](https://bootcamp.laravel.com/) - Recommend "building chirper with blade"
+- Laravel 8 from Scratch: [https://laracasts.com/series/30-days-to-learn-laravel-11](https://laracasts.com/series/30-days-to-learn-laravel-11)
 - What's New in Laravel 9: [https://laracasts.com/series/whats-new-in-laravel-9](https://laracasts.com/series/whats-new-in-laravel-9)
 
 Laracasts is an official learning platform for Laravel, so you can trust the quality of the content and learn best practices from some of the best and most experienced teacher within the field.
 
 ### 🔥 Credits
 Atom CMS is made possible by the contributions of numerous developers, designers, and community members.
-
-- **Kasja#5700** - Helping with design, ideas & GFX
-- **Nicollas#8412** - Dark mode, Turbolinks, Performance improvements, Article reactions, User sessions, Layout improvements & PT-BR translations
-- **Dominic** - Performance improvements & User sessions
-- **Oliver** - Profile page & Finnish translations
-- **Beny** - Findretros API fixes & CF Fixes
-- **Live** - French translations, bugfixes & tweaks
-- **MisterDeen** - Custom Discord widget, bugfixes & tweaks
-- **DamienJolly** - Bugfixes
-- **Danbo** - Bugfixes
-- **Diddy/Josh** - Code readability improvements
-- **Damue** - German translations
-- **Talion** - Turkish translations
-- **CentralCee & Rille** - Swedish translations
-- **Yannick** - Netherland translations
-- **Gedomi** - Spanish translations
-- **Lorenzune** - Italian translations
-- **Twana** - Norwegian translations
-- **Kani** - Base for RCON System & Findretros API
-- **Sonay** - Material theme
-- **Raizer** - Circinus
+-   **Kani** - Building Atom V2 
+-   **Kasja** - Helping with design, ideas & GFX
+-   **Nicollas** - Dark mode, Turbolinks, Performance improvements, Article reactions, User sessions, Layout improvements & PT-BR translations
+-   **Dominic** - Performance improvements & User sessions
+-   **Oliver** - Profile page & Finnish translations
+-   **Beny** - Findretros API fixes & CF Fixes
+-   **Live** - French translations, bugfixes & tweaks
+-   **MisterDeen** - Custom Discord widget, bugfixes & tweaks
+-   **EntenKoeniq#0001** - Automatic language registration, auto color scheme selection, rooms page & profile page fixes,
+-   **DamienJolly** - Bugfixes
+-   **Danbo** - Bugfixes
+-   **Diddy/Josh** - Code readability improvements
+-   **Damue & EntenKoeniq#0001** - German translations
+-   **Talion** - Turkish translations
+-   **CentralCee, Rille & Tuborgs** - Swedish translations
+-   **Yannick** - Netherland translations
+-   **Gedomi** - Spanish translations
+-   **Lorenzune** - Italian translations
+-   **Twana** - Norwegian translations
+-   **Plow** - French translations
+-   **Kani** - Rcon System & Findretros API
+-   **Sonay** - Material theme
+-   **Raizer** - Circinus
 
 
 That's introduction of Atom CMS! It's now time to have some fun and get your hands dirty by heading into the setup process 🍻
