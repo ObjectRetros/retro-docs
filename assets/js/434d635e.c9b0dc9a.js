@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkretro_docs=self.webpackChunkretro_docs||[]).push([[9457],{9934:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/retro-docs/blog/tags/docusaurus","allTagsPath":"/retro-docs/blog/tags","count":4}')}}]);
